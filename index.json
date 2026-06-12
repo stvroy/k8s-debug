@@ -10,6 +10,12 @@
     "intro": {
       "text": "intro.md"
     },
+    "steps": [
+      {
+        "title": "Investigate and Fix",
+        "text": "step1.md"
+      }
+    ],
     "finish": {
       "text": "finish.md"
     },
@@ -22,5 +28,8 @@
         }
       ]
     }
+  },
+  "scripts": {
+    "background": "setup.sh"
   }
 }
