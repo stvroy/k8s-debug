@@ -1,0 +1,26 @@
+{
+  "title": "Debug a Broken Kubernetes Deployment",
+  "description": "A production deployment is failing. Pods are not ready and users cannot reach the application. Find and fix every bug.",
+  "difficulty": "intermediate",
+  "time": "10",
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  },
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "setup.sh",
+          "target": "/tmp",
+          "chmod": "+x"
+        }
+      ]
+    }
+  }
+}
