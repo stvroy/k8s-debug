@@ -18,16 +18,16 @@
     ],
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {
-          "file": "setup.sh",
-          "target": "/tmp",
-          "chmod": "+x"
-        }
-      ]
     }
+  },
+  "assets": {
+    "host01": [
+      {
+        "file": "setup.sh",
+        "target": "/tmp",
+        "chmod": "+x"
+      }
+    ]
   },
   "scripts": {
     "background": "setup.sh"
